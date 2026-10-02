@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanotiya Automobiles | Official Zelio Electric Scooters</title>
+    <style>
+        :root {
+            --primary: #10b981;
+            --dark: #1f2937;
+            --light: #f3f4f6;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--dark);
+            background-color: #fff;
+        }
+        header {
+            background: var(--dark);
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .btn {
+            background: var(--primary);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1100px;
+            margin: auto;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        /* Slider Mockup Styling */
+        .slider-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            text-align: left;
+        }
+        .card {
+            background: var(--light);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 1.5rem;
+        }
+        .card-content h3 {
+            margin-top: 0;
+            color: var(--dark);
+        }
+        /* Benefits Grid */
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            text-align: left;
+        }
+        .benefit-box {
+            background: #ecfdf5;
+            border-left: 4px solid var(--primary);
+            padding: 1.5rem;
+            border-radius: 4px;
+        }
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <h1>Dhanotiya Automobiles</h1>
+        <p>Authorized Zelio EV Dealership</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Smart, Safe & Sustainable Urban Mobility</h2>
+        <p>Explore the latest lineup of Zelio Electric Scooters. Zero petrol, zero hassle, maximum savings.</p>
+        <a href="#models" class="btn">View Models</a>
+    </section>
+
+    <!-- Zelio Scooter Showcase / Slider Section -->
+    <section id="models" class="section">
+        <h2>Featured Zelio Electric Scooters</h2>
+        <p style="margin-bottom: 3rem; color: #6b7280;">Designed for India with high loading capacity, incredible mileage, and modern styles.</p>
+        
+        <div class="slider-container">
+            <!-- Model 1 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=600&q=80" alt="Zelio X-Men+">
+                <div class="card-content">
+                    <h3>Zelio X-Men+</h3>
+                    <p><strong>Range:</strong> Up to 100-120 km/charge</p>
+                    <p>Sporty design equipped with central locking, anti-theft alarm, and hydraulic suspension. Perfect for youth and city commuters.</p>
+                </div>
+            </div>
+
+            <!-- Model 2 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1508974239320-0a029497e820?auto=format&fit=crop&w=600&q=80" alt="Zelio Gracy Series">
+                <div class="card-content">
+                    <h3>Zelio Gracy Series</h3>
+                    <p><strong>Range:</strong> 60 to 120 km per charge</p>
+                    <p>Comes with spacious boot storage, bright LED headlamps, and high comfort for daily family errands and college commutes.</p>
+                </div>
+            </div>
+
+            <!-- Model 3 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1558981359-219d6364c9c8?auto=format&fit=crop&w=600&q=80" alt="Zelio Eeva">
+                <div class="card-content">
+                    <h3>Zelio Eeva</h3>
+                    <p><strong>Range:</strong> 65 - 90 km/charge</p>
+                    <p>An economical, reliable daily driver built for maximum utility, comfort, and effortless handling on busy roads.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Electric / Benefits Section -->
+    <section class="section" style="background-color: var(--light);">
+        <h2>Why Switch to Electric Scooters?</h2>
+        <div class="benefits-grid">
+            <div class="benefit-box">
+                <h3>💰 Ultra-Low Running Cost</h3>
+                <p>Runs on just 1.5 to 2 units per charge, costing roughly 10–15 paise per kilometer compared to skyrocketing petrol prices.</p>
+            </div>
+            <div class="benefit-box">
+                <h3>🛠️ Low Maintenance</h3>
+                <p>Fewer moving parts means no engine oil changes, clutch repairs, or complex tune-ups. Save massively on yearly service bills.</p>
+            </div>
+            <div class="benefit-box">
+                <h3>🌱 100% Eco-Friendly</h3>
+                <p>Zero tailpipe emissions. Help reduce local air pollution and noise pollution in your city while enjoying a clean ride.</p>
+            </div>
+            <div class="benefit-box">
+                <h3>📄 Easy Daily Commuting</h3>
+                <p>Low-speed models (up to 25 km/h) are designed for effortless daily utility.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h3>Dhanotiya Automobiles</h3>
+        <p>Your Trusted Partner for Electric Mobility.</p>
+        <p style="font-size: 0.9rem; color: #9ca3af; margin-top: 1rem;">&copy; 2026 Dhanotiya Automobiles. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
